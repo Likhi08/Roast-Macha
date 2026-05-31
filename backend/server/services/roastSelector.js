@@ -20,6 +20,8 @@ const intensityAuraRanges = {
 
 const clampAura = (score) => Math.max(0, Math.min(100, score));
 
+const trophyImagePattern = /(rcb|virat|kohli|cup|trophy|ipl|namdu)/i;
+
 function makeAuraScore(intensity, confidence) {
   const [min, max] = intensityAuraRanges[intensity] || intensityAuraRanges.medium;
   const base = Math.floor(Math.random() * (max - min + 1)) + min;
@@ -28,6 +30,14 @@ function makeAuraScore(intensity, confidence) {
 }
 
 export function selectRoast(context) {
+  if (trophyImagePattern.test(context.image?.originalName || '')) {
+    return {
+      roast: 'EE sala CUP Namdu 🔥🔥',
+      auraScore: 100,
+      vibeTags: ['Cup Namdu', 'Champion Energy', 'Full Fire']
+    };
+  }
+
   const roasts =
     roastsByEmotion[context.language]?.[context.detectedEmotion]?.[context.intensity] ||
     roastsByEmotion.English.neutral.medium;
