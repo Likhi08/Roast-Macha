@@ -1,6 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import multer from 'multer';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import {
   displayIntensity,
   supportedIntensities,
@@ -11,7 +13,10 @@ import { detectMockEmotion } from './server/services/emotionService.js';
 import { selectRoast } from './server/services/roastSelector.js';
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const frontendDistPath = path.resolve(__dirname, '../frontend/dist');
 
 app.use(cors());
 app.use(express.json());
@@ -77,11 +82,17 @@ app.get('/api/roast/options', (req, res) => {
   });
 });
 
+app.use(express.static(frontendDistPath));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(frontendDistPath, 'index.html'));
+});
+
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).json({ error: 'Roast pipeline had a moment. Try again.' });
 });
 
 app.listen(PORT, () => {
-  console.log(`Roast Macha backend running at http://localhost:${PORT}`);
+  console.log(`Roast Macha running on port ${PORT}`);
 });

@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: roast-macha
+    runtime: node
+    branch: main
+    buildCommand: cd frontend && npm install && npm run build && cd ../backend && npm install
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
