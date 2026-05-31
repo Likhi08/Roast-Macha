@@ -55,53 +55,53 @@ const memeCaptions = {
   },
   Telugu: {
     happy: [
-      'రెండు సెకన్లు నవ్వి, నా మొత్తం జీవితం ఇంకా పెండింగ్‌లో ఉందని గుర్తొచ్చినప్పుడు 😞',
-      'ఫోటో క్యూట్‌గా ఉంది కానీ వ్యక్తిత్వం ఇంకా బీటా వెర్షన్‌లో ఉన్నప్పుడు 😞',
-      'అన్నీ బాగున్నట్టు నవ్వుతున్నాను కానీ బ్యాంక్ బ్యాలెన్స్ మాత్రం రిజెక్ట్ చేస్తున్నప్పుడు 😞',
-      'హ్యాపీ స్టోరీ పెట్టి వెంటనే మళ్లీ ఓవర్‌థింకింగ్‌కి వెళ్లినప్పుడు 😞',
-      'ఒక్క పని చేసి మొత్తం రోజు ఉత్సాహంగా నటిస్తున్నప్పుడు 😞'
+      'Rendu seconds navvi, life motham inka pending lo undani gurthu vachinappudu 😞',
+      'Photo cute ga undi kani personality inka beta version lo unnappudu 😞',
+      'Anni bagunnattu smile istunna, bank balance matram reject chestunnappudu 😞',
+      'Happy story petti ventane malli overthinking ki vellinappudu 😞',
+      'Okka pani chesi motham day utsaham ga act chestunnappudu 😞'
     ],
     sad: [
-      'ప్లేలిస్ట్ నా ఫ్రెండ్స్ కంటే ఎక్కువగా నన్ను అర్థం చేసుకున్నప్పుడు 😞',
-      'మంచి డ్రెస్‌ని బోరింగ్ రోజు మీద వేస్ట్ చేసినప్పుడు 😞',
-      '"పర్లేదు" అని చెప్పి దాన్నే నా వ్యక్తిత్వంగా మార్చుకున్నప్పుడు 😞',
-      'చిన్న సమస్యే సీజన్ ఫినాలేలా అనిపించినప్పుడు 😞',
-      'అద్దం ముందస్తు హెచ్చరిక లేకుండా నిజాయితీగా అభిప్రాయం ఇచ్చినప్పుడు 😞'
+      'Playlist friends kanna ekkuva nannu ardham chesinappudu 😞',
+      'Manchi dress ni boring roju meeda waste chesinappudu 😞',
+      '"Parledu" ani cheppi danne personality ga marchukunnappudu 😞',
+      'Chinna problem kuda season finale la anipinchinappudu 😞',
+      'Mirror warning lekunda honest feedback ichinappudu 😞'
     ],
     angry: [
-      '"శాంతించు" అని చెప్పగానే బాస్ లెవెల్ అన్‌లాక్ అయినప్పుడు 😞',
-      'కఠినమైన రిప్లై టైప్ చేసి శాంతి కోసం డిలీట్ చేసినప్పుడు 😞',
-      'నా సహనానికి అపరిమిత వారంటీ ఉందనుకుని అందరూ పరీక్షించినప్పుడు 😞',
-      'డెడ్‌లైన్ దగ్గరికి రాగానే గ్రూప్ ప్రాజెక్ట్ వాళ్లు యాక్టివ్ అయినప్పుడు 😞',
-      'ట్రాఫిక్ సిగ్నల్ కూడా నా ఆరాను జడ్జ్ చేసినప్పుడు 😞'
+      '"Calm avvu" annagane boss level unlock ainappudu 😞',
+      'Savage reply type chesi peace kosam delete chesinappudu 😞',
+      'Na patience ki unlimited warranty undani andaru test chesinappudu 😞',
+      'Deadline daggariki ragane group project vallu active ainappudu 😞',
+      'Traffic signal kuda na aura ni judge chesinappudu 😞'
     ],
     neutral: [
-      'ముందు కెమెరా పొరపాటున తెరుచుకున్నప్పుడు 😞',
-      'జీవితం హీరో ఎనర్జీ అడిగితే నేను పాస్‌పోర్ట్ ఫోటో మూడ్ ఇచ్చినప్పుడు 😞',
-      'ఆలోచనలు శూన్యం, నమ్మకం పూర్తి స్థాయి అన్నట్టు మీటింగ్‌కి వెళ్లినప్పుడు 😞',
-      'ముఖం "ఏమీ జరగలేదు" అంటుంది కానీ ఆరా ఇప్పటికే ఫిర్యాదు పెట్టినప్పుడు 😞',
-      'బాధ్యతలకు స్కిప్ బటన్ లేదని గుర్తొచ్చినప్పుడు 😞'
+      'Mundu camera porapatuna open ainappudu 😞',
+      'Life hero energy adigithe nenu passport photo mood ichinappudu 😞',
+      'Thoughts zero, confidence full ani meeting ki vellinappudu 😞',
+      'Face "emi jaragaledu" antundi kani aura already complaint pettinappudu 😞',
+      'Responsibilities ki skip button ledani gurthu vachinappudu 😞'
     ],
     sleepy: [
-      'అలారం నా చదువుకి స్పాన్సర్‌లా మోగినప్పుడు 😞',
-      'ఎనిమిది గంటలు నిద్రపోయినా ట్రైలర్ ఎనర్జీతో లేచినప్పుడు 😞',
-      'ఒక చిన్న నిద్ర ఏమీ సాల్వ్ చేయకుండా టైమ్‌లైన్ మార్చేసినప్పుడు 😞',
-      'శరీరం లేచింది కానీ ఆత్మ ఇంకా ఛార్జింగ్‌లో ఉన్నప్పుడు 😞',
-      'కాఫీన్ చాట్‌లోకి వచ్చి నన్ను సీన్‌లో వదిలేసినప్పుడు 😞'
+      'Alarm na chaduvuki sponsor la ring ainappudu 😞',
+      'Eight hours nidra poyina trailer energy tho lechinappudu 😞',
+      'Oka nap emi solve cheyyakunda timeline marchesinappudu 😞',
+      'Body lechindi kani soul inka charging lo unnappudu 😞',
+      'Caffeine chat loki vachi nannu seen lo vadilesinappudu 😞'
     ],
     confused: [
-      'ప్రశ్నను రెండు సార్లు చదివితే అది వ్యక్తిగత దాడిలా అనిపించినప్పుడు 😞',
-      'అందరికీ ప్లాన్ అర్థమైంది, నేను మాత్రం ఇంకా లోడింగ్ స్క్రీన్‌లో ఉన్నప్పుడు 😞',
-      'మెదడు ప్రకటనలు ప్లే చేస్తుంటే నేను సమాచారం అర్థం చేసుకుంటున్నట్టు నటించినప్పుడు 😞',
-      'వివరణకే మరో వివరణ కావాల్సినప్పుడు 😞',
-      'జీపీఎస్ "మళ్లీ లెక్కిస్తున్నాను" అంటే నా జీవితం కూడా అదే అన్నప్పుడు 😞'
+      'Question rendu sarlu chadivithe personal attack la anipinchinappudu 😞',
+      'Andariki plan ardham ayyindi, nenu matram loading screen lo unnappudu 😞',
+      'Brain ads play chestunte information ardham aindi ani act chesinappudu 😞',
+      'Explanation ki kuda inko explanation kavalsinappudu 😞',
+      'GPS recalculating antunte life kuda same ani anipinchinappudu 😞'
     ],
     surprised: [
-      'ప్లాట్ ట్విస్ట్ నా భావోద్వేగ బడ్జెట్ కంటే ముందే వచ్చినప్పుడు 😞',
-      'ఎవరైనా పొగిడితే మనిషిలా ఎలా స్పందించాలో మర్చిపోయినప్పుడు 😞',
-      'లక్షాధికారిలా ఆర్డర్ చేసి బిల్లు తెరిచినప్పుడు 😞',
-      'కెమెరా ఫ్లాష్ ఫోటో కంటే ఎక్కువగా నిజం బయటపెట్టినప్పుడు 😞',
-      'మనసులో క్యాన్సిల్ చేసిన ప్లాన్స్ నిజంగానే జరిగినప్పుడు 😞'
+      'Plot twist na emotional budget kanna mundhe vachinappudu 😞',
+      'Evaraina compliment isthe normal ga respond avvadam marchipoyinappudu 😞',
+      'Millionaire la order chesi bill open chesinappudu 😞',
+      'Camera flash photo kanna ekkuva nijam bayatapettinappudu 😞',
+      'Mind lo cancel chesina plans nijangane jariginappudu 😞'
     ]
   },
   Hindi: {
@@ -319,8 +319,8 @@ const defaultIntensitySuffixes = {
 const localizedIntensitySuffixes = {
   Telugu: {
     soft: ['', '', ''],
-    medium: [' నిజంగా అన్యాయం.', ' ఆరాకి చిన్న దెబ్బ పడింది.', ' ఇది నిశ్శబ్దంగా గుచ్చింది.'],
-    savage: [' భావోద్వేగ నష్టం నిజం చేత స్పాన్సర్ చేయబడింది.', ' ఆరా చాట్ నుంచి వెళ్లిపోయింది.', ' క్యాప్షన్ కూడా వదిలేసింది.']
+    medium: [' Nijanga unfair.', ' Aura ki chinna debba padindi.', ' Idi silent ga hurt ayyindi.'],
+    savage: [' Emotional damage reality sponsor chesindi.', ' Aura chat nunchi vellipoyindi.', ' Caption kuda give up chesindi.']
   }
 };
 
