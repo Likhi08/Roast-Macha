@@ -68,7 +68,16 @@ export default function HomePage() {
       setRoastResult(response.data);
       playSound('bass');
     } catch (err) {
-      setError('Your aura was too powerful to analyze 💀');
+      const status = err.response?.status;
+      const serverMessage = err.response?.data?.error;
+
+      if (status === 400 && serverMessage) {
+        setError(serverMessage);
+      } else if (err.code === 'ERR_NETWORK' || !err.response) {
+        setError('Backend is not running. Start it with: cd backend && npm run dev');
+      } else {
+        setError(serverMessage || 'Roast failed. Try again in a second.');
+      }
       console.error(err);
     } finally {
       setLoading(false);
