@@ -1,5 +1,7 @@
 # Roast Macha - Gen Z Selfie Roasting App
 
+Machaaa.... u r finished.
+
 A dark, meme-aesthetic web app that uses mock emotion detection to roast your selfies and rate your aura. All in good fun, bestie.
 
 ## What Is Roast Macha?
@@ -47,11 +49,11 @@ cd frontend && npm install && npm run dev
 
 ```text
 HomePage.jsx
-├── LanguageSelector.jsx
-├── IntensitySelector.jsx
-├── UploadBox.jsx
-├── AnimatedLoader.jsx
-└── RoastCard.jsx
+|-- LanguageSelector.jsx
+|-- IntensitySelector.jsx
+|-- UploadBox.jsx
+|-- AnimatedLoader.jsx
+`-- RoastCard.jsx
 ```
 
 ## Backend Structure
@@ -80,7 +82,7 @@ FormData:
   "intensity": "Savage",
   "detectedEmotion": "sleepy",
   "emotionConfidence": 87,
-  "roast": "macha nee selfie campus WiFi la buffering chestundi, sleep mode, hero entry output zero.",
+  "roast": "ముందు కెమెరా పొరపాటున తెరుచుకున్నప్పుడు 😞 ఆరా చాట్ నుంచి వెళ్లిపోయింది.",
   "auraScore": 31,
   "vibeTags": ["Sleep Mode", "Low Battery Aura", "Alarm Defeated"]
 }
